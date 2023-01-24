@@ -23,7 +23,7 @@ app.get('/show', (req, res) => {
 
 app.get('/ejs', (req, res) => {
     //ejs stuff goes here
-    res.render('pages/about');
+    res.render('index');
 })
 
 console.log('in the node console');
